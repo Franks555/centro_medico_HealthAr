@@ -29,8 +29,173 @@ html, body{
 
 /*--------------------  Animaciones  --------------------*/
 
+.reserva_letra_1{
+    animation-name: animacion_letra;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 4s;
+}
 
+.reserva_letra_2{
+    animation-name: animacion_letra;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 4.1s;
+}
 
+.reserva_letra_3{
+    animation-name: animacion_letra;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 4.2s;
+}
+
+.reserva_letra_4{
+    animation-name: animacion_letra;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 4.3s;
+}
+
+.reserva_letra_5{
+    animation-name: animacion_letra;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 4.4s;
+}
+
+.reserva_letra_6{
+    animation-name: animacion_letra;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 4.5s;
+}
+
+.reserva_letra_7{
+    animation-name: animacion_letra;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 4.6s;
+}
+
+.reserva_letra_8{
+    animation-name: animacion_letra;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 4.7s;
+}
+
+.reserva_letra_9{
+    animation-name: animacion_letra;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 4.8s;
+}
+
+.reserva_letra_10{
+    animation-name: animacion_letra;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 4.9s;
+}
+
+.reserva_letra_11{
+    animation-name: animacion_letra;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 5s;
+}
+
+.reserva_letra_11{
+    animation-name: animacion_letra;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 5.1s;
+}
+
+.reserva_letra_12{
+    animation-name: animacion_letra;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 5.2s;
+}
+
+.reserva_letra_13{
+    animation-name: animacion_letra;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 5.3s;
+}
+
+.reserva_letra_14{
+    animation-name: animacion_letra;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 5.4s;
+}
+
+.reserva_letra_15{
+    animation-name: animacion_letra;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 5.5s;
+}
+
+.reserva_letra_16{
+    animation-name: animacion_letra;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 5.6s;
+}
+
+.reserva_letra_17{
+    animation-name: animacion_letra;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 5.7s;
+}
+
+.reserva_letra_18{
+    animation-name: animacion_letra;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 5.8s;
+}
+
+.reserva_letra_19{
+    animation-name: animacion_letra;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 5.9s;
+}
+
+.reserva_letra_20{
+    animation-name: animacion_letra;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 6.1s;
+}
 /*--------------------  Menú de navegación y logo  --------------------*/
 
 nav{
@@ -77,6 +242,8 @@ nav{
 .nav_bar li a:hover{
     text-decoration: none;
     color: #817D76;
+    font-weight: bold;
+    
 }
 
 .search_bar{
@@ -111,6 +278,7 @@ font-size: 35px;
 padding-right: 40px;
 padding-bottom: 30px; 
 }
+
 
 .reserva_texto p{
 text-align: justify;
@@ -502,6 +670,26 @@ footer {
 /*-----------------------------  KeyFrames  ----------------------------*/
 /*----------------------------------------------------------------------*/
 
+
+@keyframes animacion_letra{
+    0%{
+        position: relative;
+        bottom: 0px;
+    }
+    5%{
+        position: relative;
+        bottom: 3px;
+    }
+    10%{
+        position: relative;
+        bottom: 0px;
+    }
+    100%{
+        position: relative;
+        bottom: 0px;
+    }
+
+}
 
 
 
