@@ -706,9 +706,44 @@ footer {
     padding: 20px;
 }
 
-.footer_redes ul li{
+.icono_fb{
     display: inline-block;
     padding-left: 10px;
+    animation-name: animacion_red_social;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 0s;
+}
+
+.icono_tw{
+    display: inline-block;
+    padding-left: 10px;
+    animation-name: animacion_red_social;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 0.2s;
+}
+
+.icono_ig{
+    display: inline-block;
+    padding-left: 10px;
+    animation-name: animacion_red_social;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 0.4s;
+}
+
+.icono_yt{
+    display: inline-block;
+    padding-left: 10px;
+    animation-name: animacion_red_social;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 0.6s;
 }
 
 .footer_copyright{
@@ -739,6 +774,25 @@ footer {
     100%{
         position: relative;
         bottom: 0px;
+    }
+
+}
+
+@keyframes animacion_red_social{
+    0%{
+
+    }
+    25%{
+        transform: rotate(360deg);
+    }
+    50%{
+
+        }
+    75%{
+       
+    }   
+    100%{transform: rotate(360deg);
+
     }
 
 }
