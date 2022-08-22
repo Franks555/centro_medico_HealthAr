@@ -333,6 +333,18 @@ text-align: justify;
 .especialidades li{
     display: inline-block;
     padding-left: 60px;
+    transform: scale(1,1);
+    transition: 0.3s;
+}
+
+.especialidades li img{
+    transform: scale(1,1);
+    transition: 0.3s;
+}
+
+.especialidades li img:hover{
+    transform: scale(1.1,1.1);
+    transition: 0.3s;
 }
 
 
@@ -675,6 +687,26 @@ footer {
     0%{
         position: relative;
         bottom: 0px;
+    }
+    5%{
+        position: relative;
+        bottom: 3px;
+    }
+    10%{
+        position: relative;
+        bottom: 0px;
+    }
+    100%{
+        position: relative;
+        bottom: 0px;
+    }
+
+}
+
+
+@keyframes animacion_especialidades{
+    0%{
+        background-color: #F58E22;
     }
     5%{
         position: relative;
