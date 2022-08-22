@@ -371,18 +371,48 @@ text-align: justify;
     margin-bottom: 40px;
 }
 
+
 .servicio_1{
     grid-area: servicio_1;
+}
+
+.servicio_1 img{
+    transform: rotateY(0deg);
+    transition: 0.3s;
+}
+
+.servicio_1 img:hover{
+    transform: rotate(2deg);
+    transition: 0.3s;
 }
 
 .servicio_2{
     grid-area: servicio_2;
 }
 
+.servicio_2 img{
+    transform: rotateY(0deg);
+    transition: 0.3s;
+}
+
+.servicio_2 img:hover{
+    transform: rotate(-2deg);
+    transition: 0.3s;
+}
+
 .servicio_3{
     grid-area: servicio_3;
 }
 
+.servicio_3 img{
+    transform: rotateY(0deg);
+    transition: 0.3s;
+}
+
+.servicio_3 img:hover{
+    transform: rotate(2deg);
+    transition: 0.3s;
+}
 
 /*------- Sección Beneficios -------*/
 
