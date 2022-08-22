@@ -293,7 +293,10 @@ text-align: justify;
 }
 
 .reserva_boton a{
-    background-color: #F58E22;
+    background: linear-gradient(to top, #be6f1a,  #F58E22);
+    position: relative;
+    bottom: 0px;
+    transition: 0.3s;
     padding-top: 8px;
     padding-bottom: 8px;
     padding-right: 25px;
@@ -302,6 +305,13 @@ text-align: justify;
     text-decoration: none;
     border-radius: 15px;
 }
+
+.reserva_boton a:hover{
+    position: relative;
+    bottom: 2px;
+    transition: 0.3s;
+}
+
 
 .reserva_imagen{
     grid-area: reserva_imagen;
@@ -717,26 +727,6 @@ footer {
     0%{
         position: relative;
         bottom: 0px;
-    }
-    5%{
-        position: relative;
-        bottom: 3px;
-    }
-    10%{
-        position: relative;
-        bottom: 0px;
-    }
-    100%{
-        position: relative;
-        bottom: 0px;
-    }
-
-}
-
-
-@keyframes animacion_especialidades{
-    0%{
-        background-color: #F58E22;
     }
     5%{
         position: relative;
