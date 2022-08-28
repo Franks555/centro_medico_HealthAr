@@ -986,6 +986,24 @@ nav{
 }
 
 
+/*-------------------- Sección Servicios | 768px --------------------*/
+
+.servicio_1 p{
+    text-align: center;
+    width: 200px;
+}
+
+.servicio_2 p{
+    text-align: center;
+    width: 200px;
+}
+
+.servicio_3 p{
+    text-align: center;
+    width: 200px;
+}
+
+
 /*-------------------- Sección Beneficios | 768px --------------------*/
 
 .beneficios{
@@ -1007,22 +1025,27 @@ nav{
 
 .beneficios p{
     font-size: 1rem;
+    grid-area: beneficio_titulo;
 }
 
 .beneficio_1{
     padding-right: 20px;
+    grid-area: beneficio_1;
 }
 
 .beneficio_2{
     padding-right: 20px;
+    grid-area: beneficio_2;
 }
 
 .beneficio_3{
     padding-right: 20px;
+    grid-area: beneficio_3;
 }
 
 .beneficio_4{
     padding-right: 20px;
+    grid-area: beneficio_4;
 }
 
 
@@ -1080,8 +1103,8 @@ footer_copyright p{
 }
 
 .servicio_1 p{
-    width: 110px;
-    padding-left: 45px;
+    width: 200px;
+    text-align: center;
     padding-top: 10px;
 }
 
@@ -1090,9 +1113,8 @@ footer_copyright p{
 }
 
 .servicio_2 p{
-    width: 110px;
+    width: 200px;
     text-align: center;
-    padding-left: 45px;
     padding-top: 10px;
 }
 
@@ -1101,12 +1123,40 @@ footer_copyright p{
 }
 
 .servicio_3 p{
-    width: 110px;
+    width: 200px;
     text-align: center;
-    padding-left: 45px;
     padding-top: 10px;
 }
 
+/*-------------------- Sección Reserva de turno | 480px --------------------*/
+
+
+.beneficios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.beneficio_1 {
+    padding-bottom: 40px;
+}
+
+.beneficio_2 {
+    padding-bottom: 40px;
+}
+
+.beneficio_2 h3{
+    width: 190px;
+    text-align: center;
+}
+
+.beneficio_3 {
+    padding-bottom: 40px;
+}
+
+.beneficio_4 {
+    padding-bottom: 40px;
+}
 
 }
 
@@ -1277,7 +1327,7 @@ footer_copyright p{
 }
     .reserva_texto h1{    
         font-size: 30px;
-        width: 350px;
+        width: 320px;
         padding-top: 30px;
     }
     
@@ -1378,7 +1428,7 @@ padding-right: 30%;
 }
 
 .opinion_titulo h2{
-    width: 330px;
+    width: 320px;
     text-align: center;   
 }
 
