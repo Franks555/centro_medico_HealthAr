@@ -210,6 +210,18 @@ background-color: #49B7BF;
 .nav-item{
     padding-left: 60px;}
 
+
+.d-flex .btn{
+    background-color: #EAF3F2;
+    border: #49B7BF 1px solid;
+    color: #49B7BF;
+}
+
+.d-flex .btn:hover{
+    background-color: #49B7BF;
+    color: white;
+}
+
 /*--------------------  index.html  --------------------*/
 
 /*------- Sección Reserva de turno -------*/
@@ -519,6 +531,9 @@ text-align: justify;
 
 /*--------------------  quienes_somos.html  --------------------*/
 
+.nuestra_historia{
+background-color: #EAF3F2;
+}
 
 .nuestra_historia h1{
     padding-top: 30px;
@@ -529,23 +544,13 @@ text-align: justify;
 .nuestra_historia > p{
     padding-top: 20px;
     padding-left: 20px;
-    padding-bottom: 70px;
-    width: 1140px;
+    padding-right: 20px;
     text-align: justify;
+    margin-bottom: 0px;
 }
 
-.nuestra_historia ul li{
-    display: inline-block;
-}
-
-.nuestra_historia ul li p{
-    width: 800px;
-    padding-left: 20px;
-    text-align: justify;
-}
-
-.nuestra_historia ul li img{
-    width: 315px;
+.nuestra_historia img{
+    width: 515px;
     padding-left: 20px;
 }
 
@@ -554,6 +559,7 @@ text-align: justify;
 
 
 .nuestros_profesionales{
+    background-color: #EAF3F2;
     padding-top: 20px;
     padding-bottom: 40px;
 }
@@ -661,10 +667,6 @@ footer {
     padding-left: 20px;
 }
 
-.footer_redes ul{
-    padding: 20px;
-}
-
 .icono_fb{
     display: inline-block;
     padding-left: 10px;
@@ -707,7 +709,7 @@ footer {
 
 .footer_copyright{
     text-align: right;
-    padding: 10px;
+    padding-right: 10px;
 }
 
 
