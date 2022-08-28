@@ -881,29 +881,48 @@ nav{
 
 /*-------------------- Sección Beneficios | 1200px --------------------*/
 
+.beneficios{
+    display: grid;
+    grid-template-areas:
+    "beneficio_titulo beneficio_titulo "
+    "beneficio_1 beneficio_2"
+    "beneficio_3 beneficio_4";
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 5%;
+}
+
+
 .beneficios h3{
     font-size: 1.2rem;
 }
 
 .beneficios p{
     font-size: 1rem;
+    grid-area: beneficio_titulo;
 }
 
 .beneficio_1{
     padding-right: 20px;
+    grid-area: beneficio_1;
 }
 
 .beneficio_2{
     padding-right: 20px;
+    grid-area: beneficio_2;
 }
 
 .beneficio_3{
     padding-right: 20px;
+    grid-area: beneficio_3;
 }
 
 .beneficio_4{
     padding-right: 20px;
+    grid-area: beneficio_4;
 }
+
 
 }
 
