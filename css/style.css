@@ -612,6 +612,7 @@ background-color: #EAF3F2;
 }
 
 .nuestros_profesionales > img{
+    width: 500px;
     padding-top:45px;
     padding-left: 20px;
     padding-bottom: 20px;
@@ -1119,98 +1120,95 @@ footer_copyright p{
 
 /*-------------------- Sección Reserva de turno | 480px --------------------*/
 
-.reserva_turno {
+.reserva_turno{
+    text-align: center;
     display: flex;
-    flex-direction:column;
-    background-color: #EAF3F2;
-    align-items: center;
-}
-
-.reserva_texto h1{    
-    font-size: 35px;
-    width: 300px;
-    padding-left: 90px;
-    text-align: center; 
+    flex-direction: column;
+    }
+    
+    .reserva_texto h1{    
+        font-size: 36px;
+        text-align: center;
+        padding-top: 30px;
+    }
+    
+    .reserva_texto p{
+        width: 490px;
+        font-size:1.3rem;
+        text-align: center;
+    }
+    
+    .reserva_imagen img{
+        width: 480px;
     }
 
-.reserva_texto p{    
-    width: 220px;
-    padding-left: 140px;
-    text-align: justify;
-}
-
-.reserva_boton{
-    padding-left: 100px;
-    padding-top: 40px;
-}
-
-.reserva_imagen img{
-    width: 300px;
-    padding-top: 50px;
-    padding-left: 110px;
-}
+    .reserva_boton a{
+        display: block;
+        text-align: center;
+        width: 220px;
+        }
 
 
 /*-------------------- Sección Especialidades | 480px --------------------*/
 
-.especialidades{
-    padding-left: 40px;
+.especialidad_categorias ul{
+    padding-right: 10%;
+    }
+
+
+/*-------------------- Sección Servicios | 480px --------------------*/
+
+.servicios p{
+    width: 240px;
+}
+
+.servicio_1 p{
+    width: 200px;
+    padding: 0px;
+    text-align: center;
+    }
+
+.servicio_2 p{
+    width: 200px;
+    padding: 0px;
+    text-align: center;
+}
+
+.servicio_3 p{
+    width: 200px;
+    padding: 0px;
+    text-align: center;
 }
 
 
 /*-------------------- Sección Beneficios | 480px --------------------*/
 
 .beneficios{
-    padding-left: 40px;
-}
-
-
-/*-------------------- Sección Servicios | 480px --------------------*/
-
-.servicios{
-    background-color: #EAF3F2;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 40px;
 }
 
-.servicios p{
-    width: 400px;
-}
-    
-.servicio_1{
-    padding-bottom: 30px;
+.beneficio_1 {
+    padding-bottom: 40px;
 }
 
-.servicio_1 p{
-    width: 110px;
-    padding-left: 45px;
-    padding-top: 10px;
+.beneficio_2 {
+    padding-bottom: 40px;
 }
 
-.servicio_2{
-    padding-bottom: 30px;
-}
-
-.servicio_2 p{
-    width: 110px;
+.beneficio_2 h3{
+    width: 190px;
     text-align: center;
-    padding-left: 45px;
-    padding-top: 10px;
 }
 
-.servicio_3{
-    padding-bottom: 30px;
+.beneficio_3 {
+    padding-bottom: 40px;
 }
 
-.servicio_3 p{
-    width: 110px;
-    text-align: center;
-    padding-left: 45px;
-    padding-top: 10px;
+.beneficio_4 {
+    padding-bottom: 40px;
 }
-
 /*-------------------- Sección Opiniones | 480px --------------------*/
 
 .opiniones{
@@ -1220,22 +1218,35 @@ footer_copyright p{
 
 }
 
-.opinion_titulo h2{
-    padding-bottom: 25px;   
-    padding-left: 120px; 
+.opiniones p{
+    width: 250px;
 }
 
-.opiniones p{
-    width: 420px;
-    padding-left: 50px;
+.opinion_texto p{
+   display: none;
+}
+
+.opinion_titulo h2{
+    width: 330px;
+    text-align: center;   
 }
 
 .opinion_paciente{
-    width: 350px;  
+    display: flex;
+    flex-direction: column;
+    padding: 0; 
+    width: 440px;
+}
+
+.opinion_paciente h4{
+    text-align: center;
+    width: 450px;
+
 }
 
 .opinion_paciente p{
-    width: 300px;  
+    width: 380px;
+    padding-left: 30px;
 }
 
 
@@ -1252,38 +1263,41 @@ footer_copyright p{
 /*-------------------- Sección Reserva de turno | 320px --------------------*/
 
 .reserva_turno{
-text-align: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
 }
 
-.reserva_texto h1{    
-    font-size: 36px;
-    width:410px;
+.reserva_texto{
     text-align: center;
-    padding-top: 30px;
-}
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-.reserva_texto p{
-    width: 370px;
-    font-size:1.3rem;
+}
+    .reserva_texto h1{    
+        font-size: 30px;
+        width: 350px;
+        padding-top: 30px;
+    }
+    
+    .reserva_texto p{
+        width: 300px;
+        font-size:1.3rem;
+        text-align: center;
+    }
+    
+    .reserva_imagen img{
+        width: 300px;
+        position: relative;
+    }
+    
+    .reserva_boton a{
+    margin-left: 20%;
+    display: block;
     text-align: center;
-}
-
-.reserva_imagen img{
-    width: 400px;
-    position: relative;
-    right: 10%;
-}
-
-
-.reserva_boton{
-    width: 300px;
-}
-
-.reserva_boton a{
-display: block;
-text-align: center;
-width: 120px;
-}
+    width: 220px;
+    }
 
 
 /*-------------------- Sección Especialidades | 320px --------------------*/
@@ -1385,7 +1399,20 @@ padding-right: 30%;
     width: 270px;
 }
 
+/*-------------------- quienes_somos.html | 320px --------------------*/
+
+.nuestra_historia img{
+    width: 300px;
+}
+
+/*-------------------- nuestros_profesionales.html | 320px --------------------*/
+
+.nuestros_profesionales > img{
+width: 300px;
+}
+
 /*-------------------- contacto.html | 320px --------------------*/
+
 
 .contacto{
     display: flex;
