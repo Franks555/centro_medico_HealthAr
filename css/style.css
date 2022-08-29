@@ -680,13 +680,17 @@ background-color: #EAF3F2;
     padding: 5px;
 }
 
+
+
 .contacto form input[type=submit]{
     display: inline-block;
-    margin-left: 250px;
+    margin-left: 280px;
 }
+
 
 .contacto form input[type=reset]{
     display: inline-block;
+
 }
 
 .contacto form textarea{
@@ -923,6 +927,12 @@ nav{
     grid-area: beneficio_4;
 }
 
+/*-------------------- contacto.html | 1200px --------------------*/
+
+.contacto form input[type=submit]{
+    margin-left: 280px;
+}
+
 
 }
 
@@ -1083,6 +1093,12 @@ nav{
     padding-bottom: 25px;    
 }
 
+/*-------------------- contacto.html | 768px --------------------*/
+
+.contacto form input[type=submit]{
+    margin-left: 280px;
+}
+
 
 /*-------------------- Footer | 768px --------------------*/
 
@@ -1147,7 +1163,9 @@ footer_copyright p{
     padding-top: 10px;
 }
 
-/*-------------------- Sección Reserva de turno | 480px --------------------*/
+
+
+/*-------------------- Sección Reserva de turno | 600px --------------------*/
 
 
 .beneficios{
@@ -1175,6 +1193,12 @@ footer_copyright p{
 
 .beneficio_4 {
     padding-bottom: 40px;
+}
+
+/*-------------------- contacto.html | 600px --------------------*/
+
+.contacto form input[type=submit]{
+    margin-left: 280px;
 }
 
 }
@@ -1318,9 +1342,14 @@ footer_copyright p{
     padding-left: 30px;
 }
 
+/*-------------------- contacto.html | 480px --------------------*/
 
+.contacto form input[type=submit]{
+    margin-left: 280px;
 }
 
+
+}
 
 
 /*-------------------------  320px -----------------------------*/
@@ -1483,19 +1512,17 @@ width: 300px;
 /*-------------------- contacto.html | 320px --------------------*/
 
 
-.contacto{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .contacto form textarea{
     width: 280px;
 }
 
 .contacto form input[type=submit]{
     display: inline-block;
-    margin-left: 200px;
+    margin-left: 150px;
+}
+
+.contacto form input[type=reset]{
+    display: inline-block;
 }
 
 }
